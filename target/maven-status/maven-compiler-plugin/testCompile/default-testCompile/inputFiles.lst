@@ -1,0 +1,12 @@
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/pages/LoginPage.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/pages/DashboardPage.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/runners/CukesRunner.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/pages/BasePage.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/utilities/Driver.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/stepdefinitions/FindDefinition.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/stepdefinitions/AccountsActivity.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/utilities/BrowserUtils.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/pages/AccountSummary.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/utilities/ConfigurationReader.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/pages/AccountActivity.java
+/Users/erhanbatu/IdeaProjects/zeroBankAutomation/src/test/java/com/zerobank/stepdefinitions/Hooks.java

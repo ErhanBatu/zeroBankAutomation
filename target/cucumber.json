@@ -1,0 +1,189 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6798398000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivity.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-08T09:34:12.014Z",
+        "before": [
+          {
+            "result": {
+              "duration": 669000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Dropdown elements in the Account Activity",
+        "description": "",
+        "id": "account-activity;dropdown-elements-in-the-account-activity",
+        "after": [
+          {
+            "result": {
+              "duration": 2004133000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1603719000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on Savings link on the Account Summary page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivity.the_user_clicks_on_Savings_link_on_the_Account_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2093159000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the default option should be \"Savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.AccountsActivity.the_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91934000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Account drop down should have the following options",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivity.account_drop_down_should_have_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Brokerage"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47238000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Transactions table should have the following options",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.AccountsActivity.transactions_table_should_have_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Description"
+                ]
+              },
+              {
+                "cells": [
+                  "Deposit"
+                ]
+              },
+              {
+                "cells": [
+                  "Withdrawal"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account Activity",
+    "description": "",
+    "id": "account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
